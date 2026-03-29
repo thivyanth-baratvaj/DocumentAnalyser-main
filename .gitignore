@@ -1,0 +1,64 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Uploads and logs (runtime generated)
+document_fraud_ai/uploads/
+document_fraud_ai/logs/
+
+# Model weights (large binary files)
+*.pth
+*.pt
+*.onnx
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+.claude 
+
+nul
+
+Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+env/
+.env
+
+# Logs
+logs/
+*.log
+
+# Uploads (temp files from API)
+uploads/
+
+# Model weights (too large for git — keep only in fraud_model/)
+*.pth
+*.pt
+*.ckpt
+
+# Training outputs
+training_history.json
+training_curves.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
