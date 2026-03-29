@@ -35,7 +35,7 @@ def augment_document(image_path, output_dir, label, count=6):
 
 
 # Run on your dataset
-DATASET_DIR = r"D:\Final year project\DocumentAnalyser-main\DocumentAnalyser-main\document_fraud_ai\Dataset"
+DATASET_DIR = r"D:\Final year project\DocumentAnalyser-main\DocumentAnalyser-main\document_fraud_ai\data_dir"
 
 for label in ["genuine", "tampered"]:
     src = os.path.join(DATASET_DIR, label)
