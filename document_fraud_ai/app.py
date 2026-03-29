@@ -49,7 +49,7 @@ MAX_FILE_SIZE = 50 * 1024 * 1024  # 50 MB
 async def lifespan(app: FastAPI):
     global pipeline
 
-    model_path = r"E:\finalYearProject\DocumentAnalyser\document_fraud_ai\fraud_model\fraud_efficientnet_b3_v2_best.pth"
+    model_path = r"D:\Final year project\DocumentAnalyser-main\DocumentAnalyser-main\document_fraud_ai"
 
     print("=== DEBUG ===")
     print(f"Model path: {model_path}")
