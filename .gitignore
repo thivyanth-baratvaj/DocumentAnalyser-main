@@ -14,7 +14,6 @@ document_fraud_ai/uploads/
 document_fraud_ai/logs/
 
 # Model weights (large binary files)
-*.pth
 *.pt
 *.onnx
 
@@ -44,7 +43,6 @@ logs/
 uploads/
 
 # Model weights (too large for git — keep only in fraud_model/)
-*.pth
 *.pt
 *.ckpt
 
