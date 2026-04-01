@@ -1,0 +1,7 @@
+2026-03-31 09:32:01.980 | WARNING  | fraud_model.pipeline:__init__:101 - Failed to load model: [Errno 13] Permission denied: 'D:\\Final year project\\DocumentAnalyser-main\\DocumentAnalyser-main\\document_fraud_ai'. Using heuristics only.
+2026-03-31 09:32:09.747 | INFO     | fraud_model.pipeline:analyze:249 - Analyzing: D:\Final year project\DocumentAnalyser-main\DocumentAnalyser-main\document_fraud_ai\uploads\b67703df3064.jpg
+2026-03-31 09:32:11.238 | INFO     | fraud_model.pipeline:analyze:360 - Result: fraud_prob=0.1332, is_fraud=False, confidence=71.58%
+2026-03-31 09:32:40.748 | INFO     | fraud_model.pipeline:analyze:249 - Analyzing: D:\Final year project\DocumentAnalyser-main\DocumentAnalyser-main\document_fraud_ai\uploads\4f7c6d1a486e.jpg
+2026-03-31 09:32:41.860 | INFO     | fraud_model.pipeline:analyze:360 - Result: fraud_prob=0.1332, is_fraud=False, confidence=71.58%
+2026-03-31 09:32:53.595 | INFO     | fraud_model.pipeline:analyze:249 - Analyzing: D:\Final year project\DocumentAnalyser-main\DocumentAnalyser-main\document_fraud_ai\uploads\01156dbea49e.jpg
+2026-03-31 09:32:55.557 | INFO     | fraud_model.pipeline:analyze:360 - Result: fraud_prob=0.1221, is_fraud=False, confidence=56.01%

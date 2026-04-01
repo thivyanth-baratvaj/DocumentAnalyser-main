@@ -243,7 +243,11 @@ def analyze_samples(saved_paths: list):
     from fraud_model.pipeline import FraudDetectionPipeline
 
     logger.info("Loading pipeline ...")
-    pipeline = FraudDetectionPipeline()   # no trained CNN needed for this test
+    # pipeline = FraudDetectionPipeline()   # no trained CNN needed for this test
+
+    pipeline = FraudDetectionPipeline(
+    model_path=r"D:\Final year project\DocumentAnalyser-main\DocumentAnalyser-main\document_fraud_ai\fraud_efficientnet_b3_v2_best.pth"
+)
 
     print("\n" + "=" * 72)
     print(f"{'Sample':<28} {'Fraud Prob':>10} {'ManTraNet':>10} {'ELA':>8} {'Verdict'}")

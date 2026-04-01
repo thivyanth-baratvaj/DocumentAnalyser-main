@@ -129,3 +129,4 @@ st.markdown(
     7. **Blur/Sharpness** - Detects local sharpness inconsistencies from splicing
     """
 )
+

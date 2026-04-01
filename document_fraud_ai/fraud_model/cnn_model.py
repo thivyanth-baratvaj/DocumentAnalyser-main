@@ -217,7 +217,7 @@ class FraudEfficientNetB3V2(nn.Module):
         return logits
 
 
-def load_model(model_path = r"E:\finalYearProject\DocumentAnalyser\document_fraud_ai\fraud_model\fraud_efficientnet_b3_v2_best.pth", model_type: str = "efficientnet_b3_v2", device: str = "cpu") -> nn.Module:
+def load_model(model_path = r"D:\Final year project\DocumentAnalyser-main\DocumentAnalyser-main\document_fraud_ai", model_type: str = "efficientnet_b3_v2", device: str = "cpu") -> nn.Module:
     """
     Load a fraud detection model.
 
